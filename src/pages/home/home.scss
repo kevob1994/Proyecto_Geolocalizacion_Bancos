@@ -1,0 +1,54 @@
+page-home {
+  .login-content {
+    background: rgba(32,61,168,1);
+    background: -moz-linear-gradient(45deg, rgba(32,61,168,1) 0%, rgba(32,61,168,1) 17%, rgba(16,122,179,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(32,61,168,1)), color-stop(17%, rgba(32,61,168,1)), color-stop(100%, rgba(16,122,179,1)));
+    background: -webkit-linear-gradient(45deg, rgba(32,61,168,1) 0%, rgba(32,61,168,1) 17%, rgba(16,122,179,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(32,61,168,1) 0%, rgba(32,61,168,1) 17%, rgba(16,122,179,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(32,61,168,1) 0%, rgba(32,61,168,1) 17%, rgba(16,122,179,1) 100%);
+    background: linear-gradient(45deg, rgba(32,61,168,1) 0%, rgba(32,61,168,1) 17%, rgba(16,122,179,1) 100%);
+
+    ion-item {
+      border-radius: 4px !important;
+      padding-left: 30px !important;
+      margin-bottom: 10px;
+      border: 1px solid #ffffff;
+      border-bottom: 0px !important;
+      box-shadow: none !important;
+    }
+
+    ion-icon{
+      font-size: 2em;
+
+    }
+    ion-label{
+      margin: 5px;
+    }
+    ion-item {
+      padding-left: 7px !important;
+    }
+    .item-input .label-md{
+      .icon-person{
+      color: rgba(16,122,179,1) !important;
+      }
+    }
+    .item-md.item-input.input-has-focus .item-inner {
+      border-bottom-color: transparent !important;
+      box-shadow: none !important;
+    }
+
+      .icon-delete{
+        font-size: 1.5em;
+        color: #999;
+        margin: 5px;
+      }
+
+      .content-login {
+        margin-top: 35% !important;
+      }
+      .register-btn {
+        color: #ffffff;
+        font-size: 0.8em;
+        margin-top: 15px;
+      }
+  }}
