@@ -57,7 +57,7 @@ var TabsPage = /** @class */ (function () {
         this.tabRoot = __WEBPACK_IMPORTED_MODULE_1__home_home__["a" /* HomePage */];
     }
     TabsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\kblanco\Desktop\angular-ionic\ionic\ProyectoPrueba\src\pages\tabs\tabs.html"*/'<ion-tabs color=secondary>\n  <ion-tab [root]="tabRoot" tabTitle="Ubicaciones" tabIcon="pin"></ion-tab>\n</ion-tabs>\n'/*ion-inline-end:"C:\Users\kblanco\Desktop\angular-ionic\ionic\ProyectoPrueba\src\pages\tabs\tabs.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\kblanco\Desktop\Proyecto CONSULTEC_IT\Proyecto_Geolocalizacion_Bancos\src\pages\tabs\tabs.html"*/'<ion-tabs color=secondary>\n  <ion-tab [root]="tabRoot" tabTitle="Ubicaciones" tabIcon="pin"></ion-tab>\n</ion-tabs>\n'/*ion-inline-end:"C:\Users\kblanco\Desktop\Proyecto CONSULTEC_IT\Proyecto_Geolocalizacion_Bancos\src\pages\tabs\tabs.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], TabsPage);
@@ -92,7 +92,7 @@ var HomePage = /** @class */ (function () {
     }
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"C:\Users\kblanco\Desktop\angular-ionic\ionic\ProyectoPrueba\src\pages\home\home.html"*/'\n<ion-content class="login-content" padding >\n\n    <div class="content-login">\n      <ion-list>\n        <ion-item>\n          <ion-label>\n            <ion-icon  class="icon-person" name="ios-person"></ion-icon>\n          </ion-label >\n          <ion-input type="text"></ion-input>\n          <ion-icon class="icon-delete"name="close-circle" item-right></ion-icon>\n\n        </ion-item>\n        <ion-item>\n          <ion-label>\n              <ion-icon name="lock" ></ion-icon>\n\n          </ion-label>\n          <ion-input type="password" placeholder="Password"></ion-input>\n        </ion-item>\n      </ion-list>\n      <button ion-button block outline >Entrar</button>\n      <button ion-button class="register-btn" block clear (click)="createAccount()">¿Olvidaste tu contraseña?</button>\n    </div>\n\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\kblanco\Desktop\angular-ionic\ionic\ProyectoPrueba\src\pages\home\home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"C:\Users\kblanco\Desktop\Proyecto CONSULTEC_IT\Proyecto_Geolocalizacion_Bancos\src\pages\home\home.html"*/'\n<ion-content class="login-content" padding >\n\n    <div class="content-login">\n      <ion-list>\n        <ion-item>\n          <ion-label>\n            <ion-icon  class="icon-person" name="ios-person"></ion-icon>\n          </ion-label >\n          <ion-input type="text"></ion-input>\n          <ion-icon class="icon-delete"name="close-circle" item-right></ion-icon>\n\n        </ion-item>\n        <ion-item>\n          <ion-label>\n              <ion-icon name="lock" ></ion-icon>\n\n          </ion-label>\n          <ion-input type="password" placeholder="Password"></ion-input>\n        </ion-item>\n      </ion-list>\n      <button ion-button block outline >Entrar</button>\n      <button ion-button class="register-btn" block clear (click)="createAccount()">¿Olvidaste tu contraseña?</button>\n    </div>\n\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\kblanco\Desktop\Proyecto CONSULTEC_IT\Proyecto_Geolocalizacion_Bancos\src\pages\home\home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
     ], HomePage);
@@ -223,7 +223,7 @@ var MyApp = /** @class */ (function () {
         });
     }
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\kblanco\Desktop\angular-ionic\ionic\ProyectoPrueba\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"C:\Users\kblanco\Desktop\angular-ionic\ionic\ProyectoPrueba\src\app\app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\kblanco\Desktop\Proyecto CONSULTEC_IT\Proyecto_Geolocalizacion_Bancos\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"C:\Users\kblanco\Desktop\Proyecto CONSULTEC_IT\Proyecto_Geolocalizacion_Bancos\src\app\app.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
@@ -258,7 +258,7 @@ var AboutPage = /** @class */ (function () {
     }
     AboutPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-about',template:/*ion-inline-start:"C:\Users\kblanco\Desktop\angular-ionic\ionic\ProyectoPrueba\src\pages\about\about.html"*/'\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\kblanco\Desktop\angular-ionic\ionic\ProyectoPrueba\src\pages\about\about.html"*/
+            selector: 'page-about',template:/*ion-inline-start:"C:\Users\kblanco\Desktop\Proyecto CONSULTEC_IT\Proyecto_Geolocalizacion_Bancos\src\pages\about\about.html"*/'\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\kblanco\Desktop\Proyecto CONSULTEC_IT\Proyecto_Geolocalizacion_Bancos\src\pages\about\about.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
     ], AboutPage);
@@ -293,7 +293,7 @@ var ContactPage = /** @class */ (function () {
     }
     ContactPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-contact',template:/*ion-inline-start:"C:\Users\kblanco\Desktop\angular-ionic\ionic\ProyectoPrueba\src\pages\contact\contact.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Contact\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <ion-list-header>Follow us on Twitter</ion-list-header>\n    <ion-item>\n      <ion-icon name="ionic" item-start></ion-icon>\n      @ionicframework\n    </ion-item>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"C:\Users\kblanco\Desktop\angular-ionic\ionic\ProyectoPrueba\src\pages\contact\contact.html"*/
+            selector: 'page-contact',template:/*ion-inline-start:"C:\Users\kblanco\Desktop\Proyecto CONSULTEC_IT\Proyecto_Geolocalizacion_Bancos\src\pages\contact\contact.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Contact\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <ion-list-header>Follow us on Twitter</ion-list-header>\n    <ion-item>\n      <ion-icon name="ionic" item-start></ion-icon>\n      @ionicframework\n    </ion-item>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"C:\Users\kblanco\Desktop\Proyecto CONSULTEC_IT\Proyecto_Geolocalizacion_Bancos\src\pages\contact\contact.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
     ], ContactPage);
