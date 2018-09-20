@@ -9,15 +9,5 @@
       "API_KEY_FOR_ANDROID": "AIzaSyDq1F7PxLhxbjTnTHyyY61z5N2NIgpqstc",
       "API_KEY_FOR_IOS": "AIzaSyDq1F7PxLhxbjTnTHyyY61z5N2NIgpqstc"
     }
-  },
-  "cordova-plugin-geolocation": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-geolocation@4.0.1"
-    },
-    "is_top_level": true,
-    "variables": {
-      "GEOLOCATION_USAGE_DESCRIPTION": "To locate you"
-    }
   }
 }
