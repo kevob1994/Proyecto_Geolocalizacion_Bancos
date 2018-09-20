@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
+import { Geolocation, Geoposition} from '@ionic-native/geolocation';
 /**
  * Generated class for the MapPage page.
  *
@@ -15,9 +15,15 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class MapPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private geolocation: Geolocation) {
   }
 
+  geolocationNative(){
+    this.geolocation.getCurrentPosition().then(
+      (position: Geoposition) => console.log("Mi posición",position),
+      error =>console.log("ERROR",error)
+    )
+  }
   ionViewDidLoad() {
     console.log('ionViewDidLoad MapPage');
   }
