@@ -27976,10 +27976,6 @@ ion-navbar.toolbar {
   background: linear-gradient(45deg, #203da8 0%, #203da8 17%, #107ab3 100%);
 }
 
-.tabs-ios-secondary .tabbar {
-  border-color: #1d327e !important;
-}
-
 page-home .login-content {
   background: #203da8;
   background: -webkit-gradient(left bottom, right top, color-stop(0%, #203da8), color-stop(17%, #203da8), color-stop(100%, #107ab3));
@@ -28050,7 +28046,6 @@ page-home .btn-map {
 
 page-home .icon-tab {
   margin: 0px auto;
-  display: block !important;
   font-size: 2em;
   color: white;
 }
