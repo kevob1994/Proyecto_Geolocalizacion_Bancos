@@ -1,0 +1,18 @@
+page-map {
+  ion-header::after {
+    background-image: none !important;
+    }
+  ion-header {
+    border-bottom: 3px solid rgb(255, 138, 29);
+  }
+  .toolbar-title-md{
+    color: white !important
+  }
+  .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default {
+    color: #fff;
+    background-color: transparent;
+  }
+  .toolbar-title-ios {
+    color: #fff;
+  }
+}
