@@ -1,11 +1,16 @@
 {
+<<<<<<< HEAD
   "_from": "cordova-plugin-splashscreen@5.0.2",
+=======
+  "_from": "cordova-plugin-splashscreen@^5.0.2",
+>>>>>>> 12a028d63bb849d5e77aa53f506aca4b0ead8a3e
   "_id": "cordova-plugin-splashscreen@5.0.2",
   "_inBundle": false,
   "_integrity": "sha1-dH509W4gHNWFvGLRS8oZ9oZ/8e0=",
   "_location": "/cordova-plugin-splashscreen",
   "_phantomChildren": {},
   "_requested": {
+<<<<<<< HEAD
     "type": "version",
     "registry": true,
     "raw": "cordova-plugin-splashscreen@5.0.2",
@@ -14,6 +19,16 @@
     "rawSpec": "5.0.2",
     "saveSpec": null,
     "fetchSpec": "5.0.2"
+=======
+    "type": "range",
+    "registry": true,
+    "raw": "cordova-plugin-splashscreen@^5.0.2",
+    "name": "cordova-plugin-splashscreen",
+    "escapedName": "cordova-plugin-splashscreen",
+    "rawSpec": "^5.0.2",
+    "saveSpec": null,
+    "fetchSpec": "^5.0.2"
+>>>>>>> 12a028d63bb849d5e77aa53f506aca4b0ead8a3e
   },
   "_requiredBy": [
     "#USER",
@@ -21,8 +36,13 @@
   ],
   "_resolved": "https://registry.npmjs.org/cordova-plugin-splashscreen/-/cordova-plugin-splashscreen-5.0.2.tgz",
   "_shasum": "747e74f56e201cd585bc62d14bca19f6867ff1ed",
+<<<<<<< HEAD
   "_spec": "cordova-plugin-splashscreen@5.0.2",
   "_where": "C:\\Users\\user\\Desktop\\proyectos\\Ionic\\Proyecto_Geolocalizacion_Bancos",
+=======
+  "_spec": "cordova-plugin-splashscreen@^5.0.2",
+  "_where": "C:\\Users\\kblanco\\Desktop\\Proyecto CONSULTEC_IT\\Proyecto_Geolocalizacion_Bancos",
+>>>>>>> 12a028d63bb849d5e77aa53f506aca4b0ead8a3e
   "author": {
     "name": "Apache Software Foundation"
   },

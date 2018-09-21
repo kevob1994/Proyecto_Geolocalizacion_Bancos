@@ -490,9 +490,15 @@ public final class R {
      * @see #FontFamily_fontProviderQuery
      */
     public static final int[] FontFamily={
+<<<<<<< HEAD
       0x7f01000c, 0x7f01000d, 0x7f01000e, 0x7f01000f, 
       0x7f010010, 0x7f010011
     };
+=======
+        0x7f01000c, 0x7f01000d, 0x7f01000e, 0x7f01000f, 
+        0x7f010010, 0x7f010011
+      };
+>>>>>>> 12a028d63bb849d5e77aa53f506aca4b0ead8a3e
     /**
      * <p>This symbol is the offset where the {@link io.ionic.starter.R.attr#fontProviderAuthority}
      * attribute's value can be found in the {@link #FontFamily} array.
@@ -591,9 +597,15 @@ public final class R {
      * @see #FontFamilyFont_fontWeight
      */
     public static final int[] FontFamilyFont={
+<<<<<<< HEAD
       0x01010532, 0x01010533, 0x0101053f, 0x7f01000b, 
       0x7f010012, 0x7f010013
     };
+=======
+        0x01010532, 0x01010533, 0x0101053f, 0x7f01000b, 
+        0x7f010012, 0x7f010013
+      };
+>>>>>>> 12a028d63bb849d5e77aa53f506aca4b0ead8a3e
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#font}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
@@ -686,8 +698,13 @@ public final class R {
      * @see #LoadingImageView_imageAspectRatioAdjust
      */
     public static final int[] LoadingImageView={
+<<<<<<< HEAD
       0x7f010009, 0x7f010014, 0x7f010015
     };
+=======
+        0x7f010009, 0x7f010014, 0x7f010015
+      };
+>>>>>>> 12a028d63bb849d5e77aa53f506aca4b0ead8a3e
     /**
      * <p>This symbol is the offset where the {@link io.ionic.starter.R.attr#circleCrop}
      * attribute's value can be found in the {@link #LoadingImageView} array.
@@ -781,6 +798,7 @@ public final class R {
      * @see #MapAttrs_zOrderOnTop
      */
     public static final int[] MapAttrs={
+<<<<<<< HEAD
       0x7f010000, 0x7f010002, 0x7f010003, 0x7f010004, 
       0x7f010005, 0x7f010006, 0x7f010007, 0x7f010008, 
       0x7f010016, 0x7f010017, 0x7f010018, 0x7f010019, 
@@ -788,6 +806,15 @@ public final class R {
       0x7f01001f, 0x7f010020, 0x7f010021, 0x7f010022, 
       0x7f010023, 0x7f010024, 0x7f010025
     };
+=======
+        0x7f010000, 0x7f010002, 0x7f010003, 0x7f010004, 
+        0x7f010005, 0x7f010006, 0x7f010007, 0x7f010008, 
+        0x7f010016, 0x7f010017, 0x7f010018, 0x7f010019, 
+        0x7f01001a, 0x7f01001b, 0x7f01001d, 0x7f01001e, 
+        0x7f01001f, 0x7f010020, 0x7f010021, 0x7f010022, 
+        0x7f010023, 0x7f010024, 0x7f010025
+      };
+>>>>>>> 12a028d63bb849d5e77aa53f506aca4b0ead8a3e
     /**
      * <p>This symbol is the offset where the {@link io.ionic.starter.R.attr#ambientEnabled}
      * attribute's value can be found in the {@link #MapAttrs} array.
@@ -1033,8 +1060,13 @@ public final class R {
      * @see #SignInButton_scopeUris
      */
     public static final int[] SignInButton={
+<<<<<<< HEAD
       0x7f010001, 0x7f01000a, 0x7f01001c
     };
+=======
+        0x7f010001, 0x7f01000a, 0x7f01001c
+      };
+>>>>>>> 12a028d63bb849d5e77aa53f506aca4b0ead8a3e
     /**
      * <p>This symbol is the offset where the {@link io.ionic.starter.R.attr#buttonSize}
      * attribute's value can be found in the {@link #SignInButton} array.

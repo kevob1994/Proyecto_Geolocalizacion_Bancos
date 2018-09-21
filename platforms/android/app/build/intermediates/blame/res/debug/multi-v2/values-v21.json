@@ -1,10 +1,17 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "C:\\Users\\user\\Desktop\\proyectos\\Ionic\\Proyecto_Geolocalizacion_Bancos\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\b14852e5c4b2c4fa4b7f91d2135eedb5\\res\\values-v21\\values-v21.xml",
+=======
+            "outputFile": "C:\\Users\\kblanco\\Desktop\\Proyecto CONSULTEC_IT\\Proyecto_Geolocalizacion_Bancos\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\kblanco\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\13607bcbc989df9337e2e21430dff638\\res\\values-v21\\values-v21.xml",
+>>>>>>> 12a028d63bb849d5e77aa53f506aca4b0ead8a3e
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +30,11 @@
                     }
                 },
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\eca0b9d836793d3b5d105f93020337bb\\res\\values-v21\\values-v21.xml",
+=======
+                    "source": "C:\\Users\\kblanco\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\0e71ab9fc2cafe19446c1a9cb1b91c0a\\res\\values-v21\\values-v21.xml",
+>>>>>>> 12a028d63bb849d5e77aa53f506aca4b0ead8a3e
                     "from": {
                         "startLines": "2,5,8,11",
                         "startColumns": "4,4,4,4",

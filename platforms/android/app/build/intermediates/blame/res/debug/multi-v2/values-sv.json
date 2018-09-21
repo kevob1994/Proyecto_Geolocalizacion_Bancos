@@ -1,10 +1,17 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "C:\\Users\\user\\Desktop\\proyectos\\Ionic\\Proyecto_Geolocalizacion_Bancos\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sv\\values-sv.xml",
             "map": [
                 {
                     "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-15.0.1.aar\\b0fac77fb0db6eaa89a7e9897f644230\\res\\values-sv\\values.xml",
+=======
+            "outputFile": "C:\\Users\\kblanco\\Desktop\\Proyecto CONSULTEC_IT\\Proyecto_Geolocalizacion_Bancos\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sv\\values-sv.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\kblanco\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-15.0.1.aar\\75439870ac143be6852b4af2e4e39a3d\\res\\values-sv\\values.xml",
+>>>>>>> 12a028d63bb849d5e77aa53f506aca4b0ead8a3e
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -21,7 +28,11 @@
                     }
                 },
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\b14852e5c4b2c4fa4b7f91d2135eedb5\\res\\values-sv\\values-sv.xml",
+=======
+                    "source": "C:\\Users\\kblanco\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\13607bcbc989df9337e2e21430dff638\\res\\values-sv\\values-sv.xml",
+>>>>>>> 12a028d63bb849d5e77aa53f506aca4b0ead8a3e
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,7 +49,11 @@
                     }
                 },
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\e3b6f2ef5b7106f7590f74da1522f532\\res\\values-sv\\values.xml",
+=======
+                    "source": "C:\\Users\\kblanco\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\73687082011b149577f2996da74ea375\\res\\values-sv\\values.xml",
+>>>>>>> 12a028d63bb849d5e77aa53f506aca4b0ead8a3e
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",

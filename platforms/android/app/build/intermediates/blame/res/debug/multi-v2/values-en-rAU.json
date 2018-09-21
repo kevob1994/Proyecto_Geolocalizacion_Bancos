@@ -1,10 +1,17 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "C:\\Users\\user\\Desktop\\proyectos\\Ionic\\Proyecto_Geolocalizacion_Bancos\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rAU\\values-en-rAU.xml",
             "map": [
                 {
                     "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\b14852e5c4b2c4fa4b7f91d2135eedb5\\res\\values-en-rAU\\values-en-rAU.xml",
+=======
+            "outputFile": "C:\\Users\\kblanco\\Desktop\\Proyecto CONSULTEC_IT\\Proyecto_Geolocalizacion_Bancos\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rAU\\values-en-rAU.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\kblanco\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\13607bcbc989df9337e2e21430dff638\\res\\values-en-rAU\\values-en-rAU.xml",
+>>>>>>> 12a028d63bb849d5e77aa53f506aca4b0ead8a3e
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

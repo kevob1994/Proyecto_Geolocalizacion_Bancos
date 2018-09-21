@@ -28,11 +28,18 @@ buildscript {
         maven {
             url "https://maven.google.com"
         }
+<<<<<<< HEAD
       google()
     }
 
     dependencies {
         classpath 'com.android.tools.build:gradle:3.1.4'
+=======
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.0'
+>>>>>>> 12a028d63bb849d5e77aa53f506aca4b0ead8a3e
         classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
         classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
     }

@@ -2,34 +2,97 @@
   "cordova-plugin-googlemaps": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-googlemaps@^2.4.4"
+      "id": "cordova-plugin-googlemaps"
     },
     "is_top_level": true,
     "variables": {
+<<<<<<< HEAD
       "API_KEY_FOR_ANDROID": "AIzaSyDq1F7PxLhxbjTnTHyyY61z5N2NIgpqstc",
       "API_KEY_FOR_IOS": "AIzaSyDq1F7PxLhxbjTnTHyyY61z5N2NIgpqstc",
+=======
+      "API_KEY_FOR_ANDROID": "AIzaSyAfLbbgvyDcAZCQTwvrAzRPiSuPnQeCPjw",
+      "API_KEY_FOR_IOS": "AIzaSyAfLbbgvyDcAZCQTwvrAzRPiSuPnQeCPjw",
+>>>>>>> 12a028d63bb849d5e77aa53f506aca4b0ead8a3e
       "PLAY_SERVICES_VERSION": "15.0.1",
       "ANDROID_SUPPORT_V4_VERSION": "27.+"
     }
   },
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@^1.3.3"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-statusbar": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-statusbar@^2.4.2"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-device": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-device@^2.0.2"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-splashscreen": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-splashscreen@^5.0.2"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-ionic-webview": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-ionic-webview@^2.1.4"
+    },
+    "is_top_level": true,
+    "variables": {
+      "ANDROID_SUPPORT_ANNOTATIONS_VERSION": "27.+"
+    }
+  },
+  "cordova-plugin-ionic-keyboard": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-ionic-keyboard@^2.1.2"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
   "cordova-plugin-geolocation": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-geolocation@4.0.1"
+      "id": "cordova-plugin-geolocation@^4.0.1"
     },
     "is_top_level": true,
     "variables": {
       "GEOLOCATION_USAGE_DESCRIPTION": "To locate you"
     }
   },
+<<<<<<< HEAD
   "cordova-plugin-statusbar": {
     "source": {
       "type": "registry",
       "id": "cordova-plugin-statusbar@2.4.2"
+=======
+  "cordova-plugin-advanced-http": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-advanced-http"
+>>>>>>> 12a028d63bb849d5e77aa53f506aca4b0ead8a3e
     },
     "is_top_level": true,
     "variables": {}
   },
+<<<<<<< HEAD
   "cordova-plugin-device": {
     "source": {
       "type": "registry",
@@ -52,6 +115,14 @@
       "id": "cordova-plugin-ionic-keyboard@^2.0.5"
     },
     "is_top_level": true,
+=======
+  "cordova-plugin-file": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-file@>=2.0.0"
+    },
+    "is_top_level": false,
+>>>>>>> 12a028d63bb849d5e77aa53f506aca4b0ead8a3e
     "variables": {}
   }
 }
