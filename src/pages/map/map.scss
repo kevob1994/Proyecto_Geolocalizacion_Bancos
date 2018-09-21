@@ -15,4 +15,10 @@ page-map {
   .toolbar-title-ios {
     color: #fff;
   }
+
+  #map_canvas{
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
 }
