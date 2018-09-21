@@ -15,7 +15,6 @@ import { Geolocation } from '@ionic-native/geolocation';
 import {
   GoogleMaps
 } from '@ionic-native/google-maps';
-import { Platform } from 'ionic-angular';
 @NgModule({
   declarations: [
     MyApp,
