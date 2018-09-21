@@ -51,4 +51,31 @@ page-home {
         font-size: 0.8em;
         margin-top: 15px;
       }
-  }}
+      .item-ios {
+        .icon-person{
+          color: rgba(16,122,179,1) !important;
+          }
+          .icon-lock{
+            color: #999;
+          }
+      }
+
+  }
+  .btn-map{
+    margin: 0px !important;
+    height: 55px;
+    background: #1d327e;
+  }
+  .icon-tab{
+    margin: 0px auto;
+    font-size: 2em;
+    color: white;
+  }
+  .text-tab{
+    margin: 0px auto;
+    display: block !important;
+    font-size: 0.8em;
+    color: white;
+  }
+
+}
