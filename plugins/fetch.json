@@ -7,7 +7,9 @@
     "is_top_level": true,
     "variables": {
       "API_KEY_FOR_ANDROID": "AIzaSyDq1F7PxLhxbjTnTHyyY61z5N2NIgpqstc",
-      "API_KEY_FOR_IOS": "AIzaSyDq1F7PxLhxbjTnTHyyY61z5N2NIgpqstc"
+      "API_KEY_FOR_IOS": "AIzaSyDq1F7PxLhxbjTnTHyyY61z5N2NIgpqstc",
+      "PLAY_SERVICES_VERSION": "15.0.1",
+      "ANDROID_SUPPORT_V4_VERSION": "27.+"
     }
   },
   "cordova-plugin-geolocation": {
@@ -19,5 +21,37 @@
     "variables": {
       "GEOLOCATION_USAGE_DESCRIPTION": "To locate you"
     }
+  },
+  "cordova-plugin-statusbar": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-statusbar@2.4.2"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-device": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-device@2.0.2"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-splashscreen": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-splashscreen@5.0.2"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-ionic-keyboard": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-ionic-keyboard@^2.0.5"
+    },
+    "is_top_level": true,
+    "variables": {}
   }
 }
