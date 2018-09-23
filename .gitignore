@@ -36,7 +36,8 @@ build/Release
 node_modules/
 jspm_packages/
 www/
-platform/
+platforms/
+plugins/
 
 # TypeScript v1 declaration files
 typings/
