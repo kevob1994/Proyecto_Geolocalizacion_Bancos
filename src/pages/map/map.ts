@@ -1,4 +1,4 @@
-import { MapProvider } from './../../providers/map/map';
+import { MapProvider, MapHelper } from './../../providers/map/map';
 import { Component,  NgZone } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Geolocation, Geoposition} from '@ionic-native/geolocation';
@@ -11,6 +11,7 @@ import {
   MarkerOptions,
   Marker
 } from '@ionic-native/google-maps';
+import {Atm} from './../../model/atm.model';
 
 /**
  * Generated class for the MapPage page.
@@ -24,10 +25,10 @@ declare var google;
   selector: 'page-map',
   templateUrl: 'map.html',
 })
-export class MapPage {
+export class MapPage implements MapHelper{
 
   map: GoogleMap;
-  markers:any;
+  markers:any = [];
   isKM:any=500;
   isType:any="atm";
 
@@ -83,7 +84,7 @@ export class MapPage {
   //   alert('clicked');
   // });
 
-  this.nearbyPlace(latitude,longitude)
+  this.mapProvider.getLocationAtm(latitude,longitude, this)
   }
 
   getPosition(): void{
@@ -103,48 +104,51 @@ export class MapPage {
       console.log(error);
     });
   }
-
-  nearbyPlace(latitude,longitude){
-    // this.loadMap();
-    // console.log("nearbyPlace",location );
-
-    this.mapProvider.getLocationAtm(latitude,longitude)
-    this.markers = [];
-    // let service = new google.maps.places.PlacesService(this.map);
-    // service.nearbySearch({
-    //           location: location,
-    //           radius: this.isKM,
-    //           types: [this.isType]
-    //         }, (results, status) => {
-    //             this.callback(results, status);
-    //         });
-
+  
+  onRetrived (response: any){
+    // console.log("onRetrived response")
+    // console.log(response)
+    this.createMarkerAtm(response)
   }
 
-  callback(results, status) {
-    if (status === google.maps.places.PlacesServiceStatus.OK) {
-      for (var i = 0; i < results.length; i++) {
-        // this.createMarker(results[i]);
-
+  createMarkerAtm(arrayAtm: Array<Atm>) {
+    
+      for (var i = 0; i < arrayAtm.length; i++) {
+        this.createMarker(arrayAtm[i]);
+        console.log("createMarkerAtm",arrayAtm[i])
       }
-    }
   }
 
-  createMarker(place){
-    var placeLoc = place;
-    console.log('placeLoc',placeLoc)
-    this.markers = new google.maps.Marker({
-        map: this.map,
-        position: place.geometry.location
+  createMarker(atm: Atm){
+    // var placeLoc = place;
+    // console.log('placeLoc',placeLoc)
+    this.map.addMarker({
+      title: atm.name,
+      icon: 'blue',
+      animation: 'DROP',
+      position: {
+        lat: atm.latitude,
+        lng: atm.longitude
+      }
     });
+    // this.markers = new google.maps.Marker({
+    //     map: this.map,
+    //     title: atm.name,
+    //     position: {
+    //       lat: atm.latitude,
+    //       lng: atm.longitude
+    //     }
+    // });
 
-    let infowindow = new google.maps.InfoWindow();
+    // let infowindow = new google.maps.InfoWindow();
 
-    google.maps.event.addListener(this.markers, 'click', () => {
-      this.ngZone.run(() => {
-        infowindow.setContent(place.name);
-        infowindow.open(this.map, this.markers);
-      });
-    });
+    // google.maps.event.addListener(this.markers, 'click', () => {
+    //   this.ngZone.run(() => {
+    //     infowindow.setContent(atm.name);
+    //     infowindow.open(this.map, this.markers);
+    //   });
+    // });
   }
+  
+  onError (rc: number){}
 }
