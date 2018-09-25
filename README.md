@@ -1,6 +1,6 @@
 # Proyecto_Geolocalizacion_Bancos
 
-Este proyecto es una app que permite por medio de google map saber tu localización, la hubicación de las ATM (Cajeros automáticos) y ademas que camino agarrar para llegar a el.
+Este proyecto es una app que permite por medio de google map saber tu localización, la hubicación de las ATM (Cajeros automáticos) y ademas que camino agarrar para llegar a el. Al darle al botón en el login donde dice Ubicaciones te lleva a la pagina donde se mostrará tu ubicación de rojo y los cajeros automáticos cercanos a ti, al presionar algún cajero se abre un modal que te muestra como llegar a ese cajero y para ir al cajero le das click al cajero nuevamente (estando dentro del modal) y te mostrará una ventana que dice "Ir", al presionar esa ventana se cierra el modal y te lleva a las coordenadas de ese cajero.
 
 ## Tecnologías
 
