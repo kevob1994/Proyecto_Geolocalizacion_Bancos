@@ -1,0 +1,38 @@
+
+<ion-content class="login-content" padding >
+
+    <div class="content-login">
+      <ion-list>
+        <ion-item>
+          <ion-label>
+            <ion-icon  class="icon-person" name="ios-person"></ion-icon>
+          </ion-label >
+          <ion-input type="text"></ion-input>
+          <ion-icon class="icon-delete"name="close-circle" item-right></ion-icon>
+
+        </ion-item>
+        <ion-item>
+          <ion-label>
+              <ion-icon name="lock"  class="icon-lock"></ion-icon>
+
+          </ion-label>
+          <ion-input type="password" placeholder="Password"></ion-input>
+        </ion-item>
+      </ion-list>
+      <button ion-button block outline >Entrar</button>
+      <button ion-button class="register-btn" block clear><p>¿Olvidaste tu contraseña?</p></button>
+    </div>
+
+</ion-content>
+<ion-footer>
+    <button ion-button full class="btn-map" (click)="goToMap()">
+        <ion-grid>
+            <ion-row>
+            <ion-icon name="pin" class="icon-tab"></ion-icon>
+          </ion-row>
+          <ion-row>
+            <p class="text-tab" text-capitalize>Ubicaciones</p>
+          </ion-row>
+        </ion-grid>
+    </button>
+</ion-footer>
