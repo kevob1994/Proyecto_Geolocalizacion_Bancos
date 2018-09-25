@@ -36,13 +36,14 @@ build/Release
 node_modules/
 jspm_packages/
 www/
+platforms/
 
 # TypeScript v1 declaration files
 typings/
 
 # Optional npm cache directory
 .npm
-
+.platforms
 # Optional eslint cache
 .eslintcache
 

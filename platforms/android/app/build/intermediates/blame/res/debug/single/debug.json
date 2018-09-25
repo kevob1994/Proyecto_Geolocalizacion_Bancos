@@ -12,12 +12,12 @@
         "source": "C:\\Users\\kblanco\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\13607bcbc989df9337e2e21430dff638\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\kblanco\\Desktop\\Proyecto CONSULTEC_IT\\Proyecto_Geolocalizacion_Bancos\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "C:\\Users\\kblanco\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\73687082011b149577f2996da74ea375\\res\\drawable-hdpi-v4\\googleg_standard_color_18.png"
-    },
-    {
         "merged": "C:\\Users\\kblanco\\Desktop\\Proyecto CONSULTEC_IT\\Proyecto_Geolocalizacion_Bancos\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
         "source": "C:\\Users\\kblanco\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\73687082011b149577f2996da74ea375\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kblanco\\Desktop\\Proyecto CONSULTEC_IT\\Proyecto_Geolocalizacion_Bancos\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_googleg_standard_color_18.png.flat",
+        "source": "C:\\Users\\kblanco\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\73687082011b149577f2996da74ea375\\res\\drawable-hdpi-v4\\googleg_standard_color_18.png"
     },
     {
         "merged": "C:\\Users\\kblanco\\Desktop\\Proyecto CONSULTEC_IT\\Proyecto_Geolocalizacion_Bancos\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_googleg_standard_color_18.png.flat",
@@ -100,16 +100,16 @@
         "source": "C:\\Users\\kblanco\\Desktop\\Proyecto CONSULTEC_IT\\Proyecto_Geolocalizacion_Bancos\\platforms\\android\\app\\src\\main\\res\\mipmap-mdpi\\icon.png"
     },
     {
-        "merged": "C:\\Users\\kblanco\\Desktop\\Proyecto CONSULTEC_IT\\Proyecto_Geolocalizacion_Bancos\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16_notification_template_custom_big.xml.flat",
-        "source": "C:\\Users\\kblanco\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\13607bcbc989df9337e2e21430dff638\\res\\layout-v16\\notification_template_custom_big.xml"
+        "merged": "C:\\Users\\kblanco\\Desktop\\Proyecto CONSULTEC_IT\\Proyecto_Geolocalizacion_Bancos\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\kblanco\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\13607bcbc989df9337e2e21430dff638\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\kblanco\\Desktop\\Proyecto CONSULTEC_IT\\Proyecto_Geolocalizacion_Bancos\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_lines_media.xml.flat",
         "source": "C:\\Users\\kblanco\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\0e71ab9fc2cafe19446c1a9cb1b91c0a\\res\\layout\\notification_template_lines_media.xml"
     },
     {
-        "merged": "C:\\Users\\kblanco\\Desktop\\Proyecto CONSULTEC_IT\\Proyecto_Geolocalizacion_Bancos\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "C:\\Users\\kblanco\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\13607bcbc989df9337e2e21430dff638\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+        "merged": "C:\\Users\\kblanco\\Desktop\\Proyecto CONSULTEC_IT\\Proyecto_Geolocalizacion_Bancos\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\kblanco\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\13607bcbc989df9337e2e21430dff638\\res\\layout-v16\\notification_template_custom_big.xml"
     },
     {
         "merged": "C:\\Users\\kblanco\\Desktop\\Proyecto CONSULTEC_IT\\Proyecto_Geolocalizacion_Bancos\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_dark.xml.flat",
