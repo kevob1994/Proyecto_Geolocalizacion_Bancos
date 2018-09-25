@@ -39,6 +39,7 @@ Este proyecto es una app que permite por medio de google map saber tu localizaci
  ```
  ## Tener en cuenta
  
+ - Al probar esta app, las llamadas de las API dependerán de la velocidad del internet, en caso de que tarde mucho en mostrarse los puntos ATM (los cajeros automaticos) esperar.
  - Esta aplicación no se puede visualizar en ningun browser ya que trabaja con plugins nativos que solo los teléfonos tienen.
  - Si la versión de android es vieja, no se visualizara el google map ya que no es compatible (Se verá en blanco).
  - Si la key de google map no es la correcta tampoco se visualizara el mapa.
