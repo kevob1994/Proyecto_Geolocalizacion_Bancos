@@ -106,7 +106,7 @@ loadMap(coorPolylines,coorInit,coorEnd,titleAtm){
       //   alert('clicked');
       // }
       htmlInfoWindow.setContent(element);
-      let ;
+
       this._ngZone.run(() => {
 
         htmlInfoWindow.open(marker);
