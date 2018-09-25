@@ -5,6 +5,7 @@ Este proyecto es una app que permite por medio de google map saber tu localizaci
 ## Tecnologías
 
 -Ionic 3
+
 -Angular 5
 
 ## Api
