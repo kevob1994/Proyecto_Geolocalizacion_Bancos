@@ -32,6 +32,7 @@ Este proyecto es una app que permite por medio de google map saber tu localizaci
  ionic cordova add platform android
  
  **Configuración para que le permita visualizar el mapa de google maps (SOLO EN CASO DE NO VISUALIZAR EL MAPA )**
+ ionic cordova plugin remove cordova-plugin-googlemaps
  ionic cordova plugin add cordova-plugin-googlemaps \
   --variable API_KEY_FOR_ANDROID="AIzaSyAfLbbgvyDcAZCQTwvrAzRPiSuPnQeCPjw" \
   --variable API_KEY_FOR_IOS="AIzaSyAfLbbgvyDcAZCQTwvrAzRPiSuPnQeCPjw"
