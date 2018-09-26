@@ -209,21 +209,7 @@ createMarker(atm: Atm){
 
       });
   });
-  // this.markers = new google.maps.Marker({
-  //     map: this.map,
-  //     title: atm.name,
-  //     position: {
-  //       lat: atm.latitude,
-  //       lng: atm.longitude
-  //     }
-  // });
-  // let infowindow = new google.maps.InfoWindow();
-  // google.maps.event.addListener(this.markers, 'click', () => {
-  //   this.ngZone.run(() => {
-  //     infowindow.setContent(atm.name);
-  //     infowindow.open(this.map, this.markers);
-  //   });
-  // });
+
 }
   onError (rc: number){}
 }

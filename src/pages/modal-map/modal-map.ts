@@ -92,40 +92,17 @@ loadMap(coorPolylines,coorInit,coorEnd,titleAtm){
       var element: HTMLElement = document.createElement("H3")
       var text = document.createTextNode("IR");
       element.appendChild(text);
-      // element.setAttribute("type", "button");
-      // element.setAttribute("value", "ir");
-      // element.setAttribute("name", "type");
-      // console.log(element);
-      // function ir(){
-      //   this.dismiss.bind(this)
-      // }
-      // element.addEventListener("click", function(){
 
-      // });
-      // function ir(){
-      //   alert('clicked');
-      // }
       htmlInfoWindow.setContent(element);
 
       this._ngZone.run(() => {
 
         htmlInfoWindow.open(marker);
       });
-      // var element = document.createElement("input");
-      // //Assign different attributes to the element.
-      // element.setAttribute("type", type);
-      // element.setAttribute("value", type);
-      // element.setAttribute("name", type);
-      // element.setAttribute("onclick", alert("blabla"));
-
 
 
      })
-    //  var lineSymbol = {
-    //   path: this.map.CIRCLE,
-    //   fillOpacity: 1,
-    //   scale: 3
-    //   };
+
      this.map.addPolyline({
              points:coorPolylines,
              color: "#3E9AFB",
@@ -133,21 +110,7 @@ loadMap(coorPolylines,coorInit,coorEnd,titleAtm){
              geodesic:true,
              clickable: true,
 
-     }).then((polilyne: Polyline) => {
-
-      // polilyne.on(GoogleMapsEvent.POLYLINE_CLICK).subscribe((params: any)=>{
-      //   // infowindow.setContent('<div><strong>' + place.name + '</strong><br>' +
-      //   //         'Place ID: ' + place.place_id + '<br>' +
-      //   //         place.formatted_address + '</div>');
-      //   //       infowindow.open(map, this);
-
-      // })
      })
-//   // marker.on(GoogleMapsEvent.MARKER_CLICK).subscribe(() => {
-//   //   alert('clicked');
-//   // });
-//   this.mapProvider.getLocationAtm(latitude,longitude, this)
-//   // this.nearbyPlace(latitude,longitude)
   }
 
 }
