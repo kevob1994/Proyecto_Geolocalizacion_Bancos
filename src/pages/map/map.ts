@@ -29,6 +29,7 @@ export class MapPage implements MapHelper {
 
   map: GoogleMap;
   markers:any;
+  marker: Marker
   isKM:any=500;
   isType:any="atm";
   myLatitudeStart:any;
@@ -76,9 +77,9 @@ export class MapPage implements MapHelper {
 
   this.map = GoogleMaps.create('map_canvas', mapOptions);
 
-  let marker: Marker = this.map.addMarkerSync({
+  this.marker = this.map.addMarkerSync({
     title: 'My Position',
-    icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAsQAAALEBxi1JjQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAQISURBVFiFtZdbaBxlFMd/Z2d2kjRNSNY0VxNJE0ksWC3EvITGGgUFK/ZB+6AWKeJDRXzSotDQVtoqWLEisVDRakCpGOs1bfGCxgffLCIabW1rkzWb3VzNfW8zx4fd1nTZbWfW9INh4Hzn+5/fdz8fqorXDygCXi0s8I9bfnMSeB0ozksrn0Z+v9G7YV3jwsm3uvWbo3u0fX3zgmUaH+WjJekeuS4iUiIiM798cUjWNd0IwPnhMC33Pa2qWqmqE170fJ6ip0q5afjs+uobLhtqKwNYfjMBBLyKeQZQ1WERgm/09uulYXzzg5Oo44wD57zq5bUGgHbLb05UVZTN1VUF5iy/OQ10XPc1ICI+oBSwAQE6AQMYSNsMYFZVnRUfAeBBH5wBFNBbiotON5YUtAANPjh2yV4gEgQeWtFtCGy2REK9tzYt/tPVprNdd2j32jq1fOKYIvGnGqoiM11tOtPVpkdaGxcCpjnvFsLVFIhI3zMN1ZUHbq7fuNweisWxFeoLreVm5+Xf/5ZDkbGBuWTyrmtpu90FHY9WV9RlGmsLrMzgAL7O8hKJOU67G2G3AIIgo7EEr1wczen02tAowWj8vzYrCADAucUoxyNTOes/H5vmj4UlL5J5nYQrWkyvDWyUmaSNAKWmAcBs0kZJHQTXHWBwfom6gdMA7N38AKZhsOuzT/F2pXkHGDk1OVO5kLSpqVjDvTt2AvBXuvLx9R0EZien33v3cOnH4alIs2nVmiJjKwmw/8CFkaNxx9GSQMU8UAIwFQ7hODYVtfVMWkVDCUdb3w9P1PhF5uOqz68YgKoeF5EvgU2gfQDBs4N819cbBezOLY8U1zW1xJNKXGFrXPUrVY250Xa9C1Q1Dlze5ME/B+OObe93bHvP8JnfostcE26DewLIAgSQBJKKx7QqHwAREaDZhWtz+tr+/wAiYohIl4j0ACPASy40dwMhETksIveIyFXXWU4AEdkGhIAXgSHgbuBhFwDbSCUq54HuNMwTuZyz0onIs8Be4DFV/WSZvcoFAKp6FjgIHBSR+4FjIlKjqvsyfa8YARHxicj2dPDdy4PnW1S1H3gB2CUiT4qIkRMAWA1sIvXyKcuiNx5bWhTHtpkOhxwgAkSmwyN2dHExmkjEDGAyS7tywALuJJVTXkGYLQV7B+gHSjPrDNM8YVpWzLQKgmnI1Ybff8FnGFGfaf6URWsVcArocZ0TAsXAESAMPAfcDviW1a8ltX4MwJ/+35ahsQbYCYwCb5Pj7XjVnFBEOoEdwBZgCfgB+B74FZgFtgKFwIdAJVAFtKan8Sbga2Cfqv6cM4bLpLQM2AhsSH/1pOayJt37IVLnRAi4CHwL/KiqiWtqe32cZoBtB1apak++Gv8CQAE20ynPG5UAAAAASUVORK5CYII=',
+    icon: 'red',
     animation: 'DROP',
     position: {
       lat: latitude,
@@ -177,14 +178,7 @@ createMarker(atm: Atm){
              }
             arrarCoordenadas.push(obj)
 
-            //  console.log("arrarCoordenadas",arrarCoordenadas)
-          //     this.map.addPolyline({
-          //    points:arrarCoordenadas,
-          //    color: "#3E9AFB",
-          //    width: 10,
-          //    geodesic:true,
-          //    clickable: true
-          //  })
+
            const myModalMap: Modal = this.modalCtrl.create('ModalMapPage',
            {
               coordenadas: arrarCoordenadas,
@@ -199,7 +193,15 @@ createMarker(atm: Atm){
               titleAtm: marker.getTitle()
            });
           myModalMap.present();
+          myModalMap.onDidDismiss( data => {
 
+            console.log("Data del modal:");
+            console.log( data.lat  );
+            console.log( data.lng  );
+            this.myLatitudeStart = data.lat;
+            this.myLongitudeStart = data.lng;
+            this.marker.setPosition({ lat:data.lat, lng: data.lng})
+         })
            },
              (error: any) => {
                if (error) {

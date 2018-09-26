@@ -78,7 +78,7 @@ loadMap(coorPolylines,coorInit,coorEnd,titleAtm){
       }
     });
      this.map.addMarker({
-      title: titleAtm,
+      title: 'IR',
        icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAA3QAAAN0BcFOiBwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAIJSURBVFiF7ZU9SBthGMd/d9GUQikiXcSkBClYRxdxiFIqoYXilqWdChYKXaWTHetUnISC2ODH0KVuQWwJKYVmaAOlSxeXKCYhVDIEB4NfeTu8d9dLuPcu8eLp4B8O3nve5/j/3ud57k4TQgCQePYyrmmNBWCMi1VeCH0283EpB6Cb0YDMAcYMLwB67BsAm6vvL9T9yfNXlhfYKnBZ6vFKmP9xCsDcuEyd+XxCrtRoyolHdFKPewF48/2Ug2PBuwfy/vW3E26HNd5OOFu5AhRqgvU/ZwA8vR9iqE/z4uXTtsyP3JLgX3Yk7LkAflYaTeuhvpB10uEPRwBsv7jh+OyKAe4l1xnI2wDs63bUEPLyCSAc1+1oMqozGfWecWULCjVBtS64c1P2vVoXFGqirTkAWH7U3CqVlIhm/6t1CWKPdVNKAKeedzoHvgB+/ZWn3kqG2UqGm2LdlHIGRvo1Rvo1q+fJ4RD7h/8B4hFn9ta4Ks8TYMkYIlPzLR8S83vQqta4Ks/U1fsXGH+rwHTpFbgGUL4FsbsRphNTRAcHfBkUyxXSmSy7eyXHfWUFumEOEB0cYDoxpdxXVsA0H/264Qvg98Ok60Gu7gwUyxVZvtg93ybFckW5p6xAOpN1fbAT83Qm2znA7l6JxdSab4DF1JryDXAFCErXAHaAfIC+lpcFIIQ+GxBE3vAC4B87hq5nUNo6JgAAAABJRU5ErkJggg==',
        animation: 'DR',
        position: {
@@ -87,20 +87,15 @@ loadMap(coorPolylines,coorInit,coorEnd,titleAtm){
        }
      }).then((marker: Marker)=> {
 
-
-      let htmlInfoWindow = new HtmlInfoWindow();
-      var element: HTMLElement = document.createElement("H3")
-      var text = document.createTextNode("IR");
-      element.appendChild(text);
-
-      htmlInfoWindow.setContent(element);
-
-      this._ngZone.run(() => {
-
-        htmlInfoWindow.open(marker);
-      });
-
-
+      marker.addEventListener(GoogleMapsEvent.INFO_CLICK).subscribe(
+        ()=>{
+          this.viewCtrl.dismiss({
+            lat: this.coordenadas[this.coordenadas.length-1].lat,
+            lng: this.coordenadas[this.coordenadas.length-1].lng
+          });
+         },
+         error => console.log(error)
+      )
      })
 
      this.map.addPolyline({
